@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-26T00:00:00Z",
+  "_note": "此文件托管在 GitHub，客户端启动时自动拉取。修改后更新 version 号即可触发客户端更新。sprite 路径为相对于仓库根目录的路径。",
+  "characters": {
+    "hwang-choon": {
+      "name": "HWANG CHOON",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle":  { "sprite": "assets/hwang-choon/idle.png", "startFrame": 0, "frames": 6, "speed": 120 },
+        "run":   { "sprite": "assets/hwang-choon/run.png", "startFrame": 0, "frames": 6, "speed": 120 },
+        "happy": { "sprite": "assets/hwang-choon/happy.png", "startFrame": 0, "frames": 6, "speed": 120 },
+        "ggum":  { "sprite": "assets/hwang-choon/ggum.png", "startFrame": 0, "frames": 24, "speed": 80, "columns": 6, "rows": 4 }
+      },
+      "runSpeed": 60,
+      "ggumSpeed": 60,
+      "phrases": {
+        "click": ["钢球钢阿耶耶~🫧", "春春肚子饿🥺~", "coma coma~", "去找勇萌杋嘻他们玩咯~", "尾巴摇摇~快来摸！", "不准走，再陪我一会儿~", "小鸭子兜帽最可爱！", "春春想你了~", "嗷呜~小狐狸来咯！", "今天天气好好，想出去晒太阳~", "我的爸爸是崔然竣噢！他是大明星，我也是！"],
+        "feed": ["맛있다!", "고마워~", "더 줘!", "완전 맛있어!", "❤️", "배부르다~ 행복해!"],
+        "ggum": ["꿈꿔...", "钢球钢阿耶耶...💭", "꿈속에서 놀고 있어~", "😴💤", "냠냠...꿈에서도 먹는 중...", "춘춘이 꿈나라 여행 중~"]
+      }
+    },
+    "yong-meong": {
+      "name": "YONG MEONG",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle": { "sprite": "assets/yong-meong/idle.png", "startFrame": 0, "frames": 6, "speed": 120 },
+        "run":  { "sprite": "assets/yong-meong/run.png", "startFrame": 0, "frames": 6, "speed": 120, "displayWidth": 170, "displayHeight": 155, "frameOffsets": [{"x":-2.6,"y":-1.8},{"x":-1.1,"y":-1.5},{"x":-0.1,"y":-1.4},{"x":2.0,"y":2.9},{"x":0,"y":1.0},{"x":1.9,"y":0.9}] },
+        "game": { "sprite": "assets/yong-meong/game.png", "startFrame": 0, "frames": 9, "speed": 100, "columns": 3, "rows": 3, "displayWidth": 160, "displayHeight": 140 }
+      },
+      "runSpeed": 60,
+      "phrases": {
+        "click": ["용멍이 왔다...", "好困...今天也是省电模式...", "（戴上面罩）正义！", "사랑해용~", "勇萌想玩游戏~", "黄春和杋嘻又打起来了...","（打哈欠）今天也好困...", "秀彬哥最好了~", "要不要一起打游戏？", "我要找杋嘻打游戏！"],
+        "feed": ["맛있어!", "고마워~", "더 줘!", "완전 맛있어!", "❤️", "吃饱了...更困了...zzZ"],
+        "game": ["🎮같이 게임할가~", "HAPPY!", "❤️", "面罩模式启动！", "我要当英雄！", "赢了...（然后秒睡）"]
+      }
+    },
+    "bamgeut": {
+      "name": "BAMGEUT",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle":  { "sprite": "assets/bamgeut/idle.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-2.9,"y":0},{"x":-0.7,"y":0.1},{"x":3.2,"y":0},{"x":-1.9,"y":0.2},{"x":-0.8,"y":-0.1},{"x":3.2,"y":-0.1}] },
+        "run":   { "sprite": "assets/bamgeut/run.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-3.8,"y":-3.0},{"x":0,"y":-3.7},{"x":3.0,"y":-2.5},{"x":-2.6,"y":3.7},{"x":0,"y":2.5},{"x":3.4,"y":3.0}] },
+        "sleep": { "sprite": "assets/bamgeut/sleep.png", "startFrame": 0, "frames": 6, "speed": 150, "frameOffsets": [{"x":-4.8,"y":-1.6},{"x":0.2,"y":-1.1},{"x":4.6,"y":-1.7},{"x":-5.0,"y":1.8},{"x":0.7,"y":1.3},{"x":4.3,"y":1.3}] }
+      },
+      "runSpeed": 60,
+      "phrases": {
+        "click": ["🐻杋嘻来啦~", "🎵BAMGEUT BAMGEUT~", "黄春！一起吃肉肉去！", "💿느낌적인 느낌~", "🍖想吃肉肉！", "😴随时可能睡着...", "你觉得外星人存在吗？", "嘿嘿，今天也很开心！", "杋圭哥说我最可爱了~", "你刚才是不是在偷偷看我？"],
+        "feed": ["맛있어!", "고마워~", "더 줘!", "완전 맛있어!", "❤️🍖", "肉肉最高！"],
+        "sleep": ["😴💤", "好困好困...", "zzz...", "让我睡一会儿~", "💤💤💤", "五分钟...就五分钟..."]
+      }
+    },
+    "da-go-nyang": {
+      "name": "DA-GO-NYANG",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle":  { "sprite": "assets/da-go-nyang/idle.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-3.4,"y":-1.0},{"x":1.0,"y":-1.0},{"x":1.9,"y":-1.3},{"x":-3.5,"y":1.4},{"x":2.0,"y":1.2},{"x":2.1,"y":0.7}] },
+        "run":   { "sprite": "assets/da-go-nyang/run.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-1.8,"y":0.0},{"x":-0.8,"y":-0.9},{"x":0.5,"y":-0.9},{"x":-0.4,"y":0.7},{"x":0.5,"y":0.9},{"x":2.0,"y":0.3}] },
+        "happy": { "sprite": "assets/da-go-nyang/happy.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-0.4,"y":-1.3},{"x":-0.4,"y":-1.8},{"x":0.9,"y":-1.5},{"x":-0.4,"y":1.4},{"x":-0.4,"y":1.6},{"x":0.7,"y":1.5}] }
+      },
+      "runSpeed": 60,
+      "reverseRunFlip": true,
+      "phrases": {
+        "click": ["松喵喵来啦...", "🐱냐옹...", "🍞巧克力海螺面包...想吃...", "😺喵...（发呆中）", "🌟你在叫我吗...？", "尾巴轻轻晃了晃...", "和大家待在一起...很安心...", "太显欧巴...在哪里...", "（轻轻打了个哈欠）...", "巧克力海螺面包...分你一半..."],
+        "feed": ["맛있어...", "고마워...", "냐옹~", "🍞", "❤️", "谢谢你...喵..."],
+        "happy": ["😺喵~", "蹭蹭~", "撒娇中...", "摸摸头嘛~", "❤️✨", "眼睛亮晶晶...✨", "is this a dream...？"]
+      }
+    },
+    "hhmnyaring": {
+      "name": "HHM NYA RING",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle":  { "sprite": "assets/hhmnyaring/idle.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-3.3,"y":-2.0},{"x":-0.3,"y":-1.8},{"x":2.8,"y":-2.2},{"x":-2.7,"y":2.2},{"x":0.7,"y":2.0},{"x":2.9,"y":1.8}] },
+        "fly":   { "sprite": "assets/hhmnyaring/fly.png", "startFrame": 0, "frames": 6, "speed": 120 },
+        "happy": { "sprite": "assets/hhmnyaring/happy.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":-6.2,"y":-1.2},{"x":-1.7,"y":-1.1},{"x":4.1,"y":-2.3},{"x":-3.5,"y":2.8},{"x":2.2,"y":0.4},{"x":5.1,"y":1.5}] }
+      },
+      "flySpeed": 60,
+      "phrases": {
+        "click": ["哼呀宁来啦...", "那个...你好...", "（卫衣上显示 😊）", "翅膀...只有一边啦...", "鸡蛋面包最好吃了~", "不要突然吓我...!", "朋友们...都对我很好...", "（翅膀轻轻扇了一下）", "休宁凯欧巴...今天也很温柔...", "紫色...是最温暖的颜色..."],
+        "feed": ["맛있어!", "고마워~", "더 줘!", "완전 맛있어!", "❤️", "谢谢你...（害羞低头）"]
+      }
+    },
+    "mochi": {
+      "name": "Mochi",
+      "spriteColumns": 3,
+      "spriteRows": 2,
+      "displayWidth": 128,
+      "displayHeight": 128,
+      "states": {
+        "idle":  { "sprite": "assets/mochi/idle.png", "startFrame": 0, "frames": 6, "speed": 120, "frameOffsets": [{"x":0,"y":0},{"x":2,"y":0},{"x":8,"y":0},{"x":0,"y":2},{"x":3,"y":2},{"x":10,"y":1}] },
+        "run":   { "sprite": "assets/mochi/run.png", "startFrame": 0, "frames": 6, "speed": 100, "frameOffsets": [{"x":0,"y":0},{"x":3,"y":1},{"x":11,"y":-1},{"x":2,"y":5},{"x":3,"y":5},{"x":10,"y":6}] },
+        "happy": { "sprite": "assets/mochi/feed.png", "startFrame": 0, "frames": 12, "speed": 100, "columns": 6, "rows": 2,
+          "frameOffsets": [{"x":0,"y":0},{"x":5,"y":0},{"x":5,"y":1},{"x":5,"y":0},{"x":5,"y":0},{"x":11,"y":0},{"x":2,"y":8},{"x":5,"y":8},{"x":5,"y":9},{"x":5,"y":9},{"x":5,"y":9},{"x":12,"y":9}] }
+      },
+      "runSpeed": 50,
+      "phrases": {
+        "click": ["啵啵！", "Mochi 在哦~", "今天也要开心！", "贴贴可以恢复能量！", "呼噜呼噜……", "诶嘿~被发现啦！", " (*´▽`*) ", "摸摸头嘛~", "Mochibi！Mochibi！", "你回来啦~好想你！", "（尾巴轻轻摇晃）", "❤️"],
+        "feed": ["好好吃~！", "谢谢你！", "再来一点嘛~", "抹茶味的最棒了！", "❤️ 幸福~", "肚子饱饱的！", "（开心得晃来晃去）"],
+        "happy": ["耶耶耶！", "（原地蹦两下）", "太开心啦！", "✨✨✨", "（爱心亮起来了！）"],
+        "sleep": ["呼噜呼噜……", "zzz...", "💤 晚安~", "（缩成一团睡着了）", "抱着星星玩偶...呼..."]
+      }
+    }
+  },
+  "interactions": {
+    "hwang-choon+yong-meong": {
+      "sprite": "assets/interactions/hwang-yong-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    },
+    "bamgeut+hwang-choon": {
+      "sprite": "assets/interactions/bamgeut-hwang-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    },
+    "bamgeut+yong-meong": {
+      "sprite": "assets/interactions/bamgeut-yong-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    },
+    "da-go-nyang+hhmnyaring": {
+      "sprite": "assets/interactions/dago-hhmnya-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    },
+    "da-go-nyang+mochi": {
+      "sprite": "assets/interactions/dago-mochi-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    },
+    "hhmnyaring+mochi": {
+      "sprite": "assets/interactions/hhmnya-mochi-hug.png",
+      "cols": 2, "rows": 3, "frames": 6, "speed": 150, "loops": 2,
+      "displayWidth": 360
+    }
+  }
+}
