@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.0.0",
+  "appVersion": "1.0.1",
   "downloadUrl": "https://github.com/ljy1638160090-commits/ppulbatu5/releases",
-  "releaseNotes": "初始版本，包含6只角色 + 双宠互动 + AI聊天"
+  "releaseNotes": "新增：快速连点3下宠物可定住不动（再点3下恢复）；修复黄春happy/ggum台词；单宠模式+托盘切换角色；激活页面粘贴按钮"
 }
